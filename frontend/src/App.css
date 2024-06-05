@@ -1,0 +1,29 @@
+.app {
+	display: flex;
+	height: 100vh;
+}
+
+.note-list {
+	width: 20%;
+	border-right: 1px solid #ddd;
+	padding: 10px;
+}
+
+.note-list-item {
+	padding: 10px;
+	cursor: pointer;
+}
+
+.note-list-item:hover {
+	background-color: #f0f0f0;
+}
+
+.note-editor {
+	width: 80%;
+	padding: 10px;
+}
+
+button {
+	margin-top: 10px;
+	padding: 5px 10px;
+}
